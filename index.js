@@ -1,14 +1,14 @@
-let randomNumber1 = Math.floor(Math.random() * 6) + 1; // Random number for Player 1
+let randomNumber1 = Math.floor(Math.random() * 6) + 1; 
 console.log("Random number for Player 1:", randomNumber1);
 
-let randomDiceImage1 = `images/dice${randomNumber1}.png`; // dice1.png to dice6.png
+let randomDiceImage1 = `images/dice${randomNumber1}.png`; 
 document.querySelector(".img1").setAttribute("src", randomDiceImage1);
 
 
-let randomNumber2 = Math.floor(Math.random() * 6) + 1; // Random number for Player 2
+let randomNumber2 = Math.floor(Math.random() * 6) + 1; 
 console.log("Random number for Player 2:", randomNumber2);
 
-let randomDiceImage2 = `images/dice${randomNumber2}.png`; // dice1.png to dice6.png
+let randomDiceImage2 = `images/dice${randomNumber2}.png`; 
 document.querySelector(".img2").setAttribute("src", randomDiceImage2);
 
 let header = document.querySelector("h1");
